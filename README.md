@@ -6,7 +6,12 @@ Uma vez dentro do servidor, criar o diretório de destino para os arquivos de á
 
 mkdir /var/lib/asterisk/sounds/pt-br
 
-Baixar o pacote core e extra : https://drive.google.com/file/d/1SNJ4OEVznC8S65mGWK4ys9dEG9l3O9L_/view?usp=drive_link
+Baixar o pacote core e extra : 
+Alternativa Privado: https://drive.google.com/file/d/1SNJ4OEVznC8S65mGWK4ys9dEG9l3O9L_/view?usp=drive_link
+
+cd /var/lib/asterisk/sounds
+wget https://sourceforge.net/projects/disc-os/files/Disc-OS%20Sounds/1.0-RELEASE/Disc-OS-Sounds-1.0-pt_BR.tar.gz
+mv /var/lib/asterisk/sounds/Disc-OS-Sounds-1.0-pt_BR /var/lib/asterisk/sounds/pt-br
 
 cd /var/lib/asterisk/sounds/pt-br
 
